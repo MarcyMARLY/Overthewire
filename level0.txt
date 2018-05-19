@@ -11,14 +11,14 @@ Level 0
 
 % Solution %
   $ ssh -p 2220 bandit0@bandit.labs.overthewire.org
+     -p port
+         Port to connect to on the remote host.  This can be specified on a per-host basis in the
+         configuration file.
 
-# -p port
-    # Port to connect to on the remote host.  This can be specified on a per-host basis in the configuration file.
+  # Next level password
+    $ ls
+    $ cat readme
 
-% Next level password %
-  $ ls
-  $ cat readme
+    Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
 
-  Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
-
-  $ ssh -p 2220 bandit1@bandit.labs.overthewire.org
+    $ ssh -p 2220 bandit1@bandit.labs.overthewire.org
