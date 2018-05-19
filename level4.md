@@ -10,7 +10,7 @@ Tip: if your terminal is messed up, try the “reset” command.
     $ cd inhere/
     $ find . -type f -exec file {} +
     >output
-    
+
     ./-file08: data
     ./-file06: data
     ./-file02: data
@@ -56,15 +56,3 @@ Tip: if your terminal is messed up, try the “reset” command.
                 starting directory.  If  find  encounters  an  error,  this  can
                 sometimes  cause an immediate exit, so some pending commands may
                 not be run at all.  This variant of -exec always returns true.
-
-
-      ./-file08: data
-      ./-file06: data
-      ./-file02: data
-      ./-file07: ASCII text
-      ./-file05: data
-      ./-file09: data
-      ./-file04: data
-      ./-file03: data
-      ./-file00: data
-      ./-file01: data
