@@ -6,9 +6,9 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <h2>Solution</h2>
 
-  <em> <code> $ ls</code></em>
-  <em> <code> $ cd inhere/ </code></em>
-  <em> <code> $ find . -type f -exec file {} + </code></em>
+  > $ ls
+  > $ cd inhere/
+  > $ find . -type f -exec file {} + 
 
     -type c
                File is of type c:
