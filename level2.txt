@@ -1,0 +1,13 @@
+Level 2
+
+% Level Goal %
+    The password for the next level is stored in a file called spaces in this filename located in the
+    home directory
+
+% Solution %
+  $ ls
+  $ cat "spaces in this filename"
+
+  Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+
+  $ ssh -p 2220 bandit3@bandit.labs.overthewire.org
