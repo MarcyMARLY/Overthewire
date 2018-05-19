@@ -6,10 +6,10 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <h2>Solution</h2>
 
-  > $ ls
-  > $ cd inhere/
-  > $ find . -type f -exec file {} + 
-
+    $ ls
+    $ cd inhere/
+    $ find . -type f -exec file {} +
+    
     -type c
                File is of type c:
 
@@ -43,15 +43,14 @@ Tip: if your terminal is messed up, try the “reset” command.
                 sometimes  cause an immediate exit, so some pending commands may
                 not be run at all.  This variant of -exec always returns true.
 
-<code>
-./-file08: data <br/>
-./-file06: data <br/>
-./-file02: data <br/>
-./-file07: ASCII text <br/>
-./-file05: data <br/>
-./-file09: data <br/>
-./-file04: data <br/>
-./-file03: data <br/>
-./-file00: data <br>
-./-file01: data <br/>
-</code>
+
+      ./-file08: data
+      ./-file06: data
+      ./-file02: data
+      ./-file07: ASCII text
+      ./-file05: data
+      ./-file09: data
+      ./-file04: data
+      ./-file03: data
+      ./-file00: data
+      ./-file01: data
