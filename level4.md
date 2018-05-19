@@ -4,10 +4,11 @@
 The password for the next level is stored in the only human-readable file in the inhere directory.
 Tip: if your terminal is messed up, try the “reset” command.
 
-% Solution %
-  $ ls
-  $ cd inhere/
-  $ find . -type f -exec file {} +
+<h2>Solution</h2>
+
+  <em> <code> $ ls</code></em>
+  <em> <code> $ cd inhere/ </code></em>
+  <em> <code> $ find . -type f -exec file {} + </code></em>
 
     -type c
                File is of type c:
