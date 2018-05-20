@@ -9,7 +9,8 @@ Tip: if your terminal is messed up, try the “reset” command.
     $ ls
     $ cd inhere/
     $ find . -type f -exec file {} +
-    >output
+
+>output
 
     ./-file08: data
     ./-file06: data
@@ -22,7 +23,7 @@ Tip: if your terminal is messed up, try the “reset” command.
     ./-file00: data
     ./-file01: data
 
-    >info
+>info
 
     -type c
                File is of type c:
@@ -56,3 +57,15 @@ Tip: if your terminal is messed up, try the “reset” command.
                 starting directory.  If  find  encounters  an  error,  this  can
                 sometimes  cause an immediate exit, so some pending commands may
                 not be run at all.  This variant of -exec always returns true.
+
+    $ find . -type f -exec file {} + | grep ASCII
+>output
+    ./-file07: ASCII text
+>info
+    grep  searches  the named input FILEs for lines containing a match to the given PATTERN.
+
+    $ cat ./-file07
+
+    Password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+    $ ssh -p 2220 bandit5@bandit.labs.overthewire.org
