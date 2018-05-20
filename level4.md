@@ -60,8 +60,11 @@ Tip: if your terminal is messed up, try the “reset” command.
 
     $ find . -type f -exec file {} + | grep ASCII
 >output
+
     ./-file07: ASCII text
+
 >info
+
     grep  searches  the named input FILEs for lines containing a match to the given PATTERN.
 
     $ cat ./-file07
