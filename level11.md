@@ -11,6 +11,7 @@ The password for the next level is stored in the file data.txt, where all lowerc
     $ cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
 
 >info
+
     https://en.wikipedia.org/wiki/ROT13
     tr translate or delete characters
 
