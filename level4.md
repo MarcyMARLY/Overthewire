@@ -6,6 +6,8 @@ Tip: if your terminal is messed up, try the “reset” command.
 
 <h2>Solution</h2>
 
+>//
+
     $ ls
     $ cd inhere/
     $ find . -type f -exec file {} +
@@ -67,8 +69,14 @@ Tip: if your terminal is messed up, try the “reset” command.
 
     grep  searches  the named input FILEs for lines containing a match to the given PATTERN.
 
+>//
+
     $ cat ./-file07
 
+>//
+
     Password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+
+>//
 
     $ ssh -p 2220 bandit5@bandit.labs.overthewire.org

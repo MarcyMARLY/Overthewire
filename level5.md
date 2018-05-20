@@ -10,6 +10,8 @@ not executable
 <h2>Solution</h2>
     Human-readable means ASCII text in this case.
 
+>//
+
     $ ls
     $ cd inhere/
     $ find / -size 1033c ! -executable -type f -exec file {} + | grep ASCII
@@ -34,6 +36,7 @@ not executable
 
 
 >info
+
     # For more info look level4.md
 
     -size n[cwbkMG]
@@ -62,11 +65,14 @@ not executable
             in the client's kernel and so cannot make use of the UID mapping information held on the server.  Because this test is based only on the result of the access(2) system call, there is no guaran-
             tee that a file for which this test succeeds can actually be executed.
 
-
+>//
 
       $ cat ./maybehere07/.file2
 
+>//
+
       Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
 
+>//
 
       $ ssh -p 2220 bandit6@bandit.labs.overthewire.org
